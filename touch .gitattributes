@@ -1,0 +1,23 @@
+# Set default behavior to automatically normalize line endings
+* text=auto
+
+# Force LF line endings for markdown, YAML, JSON, and other common config files
+*.md     text eol=lf
+*.yml    text eol=lf
+*.yaml   text eol=lf
+*.json   text eol=lf
+*.sh     text eol=lf
+*.js     text eol=lf
+*.ts     text eol=lf
+*.html   text eol=lf
+*.css    text eol=lf
+
+# Binary files - no end-of-line normalization
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.svg    binary
+*.ico    binary
+*.pdf    binary
+
